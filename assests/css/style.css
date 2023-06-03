@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap');
+.ff{font-family: 'DM Sans',
+sans-serif;}
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.p-top{
+    padding-top: 30px;
+}
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.containers{
+    width: 1400px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.justify_content_between {
+    justify-content: space-between;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.display_flex_direction {
+    flex-direction: column;
+}
+.hero_bg {
+    background-image: url(../image/Group\ .png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.nav1{
+    font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+}
+.nav2{
+    font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        letter-spacing: -0.292683px;
+        color: #FFFFFF;
+}
+.navb{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.navl{
+    background: #25DAC5;
+        border-radius: 100px;
+        padding: 7px 18px;
+        margin-left: 32px;
+}
+.m-h{
+    font-family: 'DM Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 70px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+        max-width: 830px;
+        margin-top: 70px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color:#ea3223 ;
+    border-radius: 100%;
+    border: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+     margin-top: 114px; 
+}
+.fs-18{
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 513px;
+        padding-top: 180px;
+        
+}
